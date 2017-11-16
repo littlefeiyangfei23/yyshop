@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yy-common" />
+        <module name="yy-manager-dao" />
+        <module name="yy-manager-interface" />
+        <module name="yy-manager-pojo" />
+        <module name="yy-manager-service" />
+        <module name="yy-manager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yy-common" target="1.8" />
+      <module name="yy-manager" target="1.8" />
+      <module name="yy-manager-dao" target="1.8" />
+      <module name="yy-manager-interface" target="1.8" />
+      <module name="yy-manager-pojo" target="1.8" />
+      <module name="yy-manager-service" target="1.8" />
+      <module name="yy-manager-web" target="1.8" />
+      <module name="yy-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
